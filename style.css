@@ -249,3 +249,25 @@ body {
 
 /* Deal Section Start */
 
+.deal-price {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* .deal-2-border {
+    border: 3px solid rgba(255, 255, 255, .2);
+    padding: 1rem;
+} */
+
+.deal-2 {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 3px solid rgba(255, 255, 255, .2);
+    margin: 1rem;
+}
+
+.deal-header {
+    font-size: 2rem;
+    font-weight: 700;
+}
