@@ -1,0 +1,251 @@
+
+:root{
+    --primary-color: #90bc79;
+    --secondary-color: #1c2900;
+
+}
+
+/* Header Font Section */
+
+.primary-font-white {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.primary-font-green {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.secondary-font-black {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para-font-gray {
+    color: #656565;
+    font-family: 'Open Sans', sans-serif;
+}
+.para-font-white {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button Section */
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    /* padding: .5rem 1.5rem; */
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 44px;
+    width: 130px;
+    transition: all 0.5s ease;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    background-color: #a1c68d;
+    border: 1px solid #9bc386;
+}
+
+.primary-btn-emt {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    height: 40px;
+    width: 125px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.primary-btn-emt:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+
+}
+
+.secondary-btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: 1px solid var(--secondary-color);
+    /* padding: .5rem 1.5rem; */
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 44px;
+    width: 130px;
+    transition: all 0.5s ease;
+}
+
+.secondary-btn-bor {
+    background-color: transparent;
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    /* padding: .5rem 1.5rem; */
+    font-weight: 500;
+    height: 44px;
+    width: 135px;
+    transition: all 0.5s ease;
+    
+}
+
+
+/* Body Section Start */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Navbar Start */
+
+.nav-bg {
+    background-color: var(--primary-color);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav-logo ul li {
+    list-style: none;
+}
+.nav-logo ul li a {
+    text-decoration: none;
+}
+
+.nav-logo ul li a h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.nav-item ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.nav-item ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+
+.nav-item ul li a:hover {
+    color: #fff;
+}
+
+#active {
+    color: #fff;
+}
+
+/* Hero Section Srart */
+
+.hero-bg {
+    background: url(./images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem;
+}
+
+.hero-bg-color {
+    background-color: var(--primary-color);
+}
+
+.hero-p {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.hero-btn {
+    gap: 1.5rem;
+}
+
+.hero-img {
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+.hero-text {
+    margin-top: 3rem;
+}
+
+/* End of Hero Section */
+
+/* Features Section Start */
+
+.features-section {
+    padding: 3rem 0;
+}
+
+.features-1 {
+    height: 228px;
+    width: 365px;
+    background-color: var(--primary-color);
+    margin-right: 1rem;
+}
+.features-border {
+    height: 200px;
+    width: 340px;
+    margin: 1rem 1rem;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 1rem;
+}
+
+.features-2 {
+    height: 212px;
+    width: 351px;
+    /* border: 2px solid rgba(255, 255, 255, .2); */
+    /* margin: 1rem; */
+}
+
+/* End of Features */
+
+/* About Section Start */
+
+/* End of About */
+
+/* Deal Section Start */
+
