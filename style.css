@@ -322,3 +322,34 @@ body {
     border: 3px solid rgba(251, 248, 248, 0.307);
     font-size: 3rem;
 }
+
+.use-dash {
+    height: 3px;
+    width: 85px;
+    background-color: rgba(214, 215, 219, 0.569);
+    
+}
+
+/* End Of Use Section */
+
+/* Product Section Start */
+
+.product-content-inner {
+    border: 3px solid #f4f8f1;
+    padding: 1.5rem;
+    transition: .1s;
+}
+.product-content-inner:hover {
+    border-width: 0;
+    box-shadow: 0 0 35px rgba(144, 188, 121, .25);
+}
+
+.product-h5 {
+    font-size: 1rem;
+}
+
+/* End Of Product Section */
+
+/* Testimonial Section Start */
+
+
