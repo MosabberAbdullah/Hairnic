@@ -110,6 +110,11 @@
     
 }
 
+.secondary-btn-bor:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
 
 /* Body Section Start */
 
@@ -263,11 +268,57 @@ body {
 .deal-2 {
     background-color: #fff;
     padding: 1.5rem;
-    border: 3px solid rgba(255, 255, 255, .2);
-    margin: 1rem;
+    /* border: 3px solid rgba(255, 255, 255, .2); */
+    margin-top: 3rem;
 }
 
 .deal-header {
     font-size: 2rem;
     font-weight: 700;
+}
+
+.deal-content {
+    border: 3px solid rgba(86, 71, 71, 0.069);
+}
+
+/* End of Deal */
+
+/* Benefit Section Start */
+
+.benefit-text h2 {
+    font-size: 40px;
+    padding: 0 4rem;
+    margin: 0 6rem;
+}
+.benefit-text p {
+    padding: 0 4rem;
+    margin: 1rem 6rem;
+}
+
+.benefit-content-1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid rgba(128, 128, 128, 0.167);
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.benefit-dash {
+    height: 3.5px;
+    width: 65px;
+    background-color: rgba(99, 114, 153, 0.262);
+    border-radius: 1px;
+}
+
+/* End of Benefit */
+
+/* Use Section Start */
+
+.use-content-1 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid rgba(251, 248, 248, 0.307);
+    font-size: 3rem;
 }
