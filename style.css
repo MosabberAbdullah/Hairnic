@@ -201,9 +201,15 @@ body {
     background-color: var(--primary-color);
 }
 
+.hero_header {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
 .hero-p {
     color: #fff;
     font-size: 1.75rem;
+    font-weight: 200;
 }
 
 .hero-btn {
@@ -397,6 +403,19 @@ body {
 
 /* Blog Section Start */
 
+.blog-view {
+    font-size: 14px;
+    color: #656565a9;
+}
 
+/* End Of Blog Section */
 
+/* News Letter Section Start */
+
+.news-header {
+    font-size: 2.5rem;
+}
+.news-header-2 {
+    font-weight: 200;
+}
 
