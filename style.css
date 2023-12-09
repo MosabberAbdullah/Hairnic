@@ -419,3 +419,86 @@ body {
     font-weight: 200;
 }
 
+.news-mail {
+    height: 52px;
+    width: 58%;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    border: 3px solid #ffffffa3;
+}
+
+#email {
+    background-color: transparent;
+    border: none;
+    height: 52px;
+    width: 88%;
+    padding-left: 1rem;
+}
+#email:focus-visible {
+    outline: none;
+}
+#email::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+/* End Of News Letter Section */
+
+/* Footer Section Start */
+
+#footer-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer-para-1 {
+    color: #656565;
+    padding-right: .5rem;
+}
+
+.location {
+    color: #656565;
+}
+
+.social-icon-1 {
+   height: 38px; 
+   width: 38px;
+   border: 3px solid var(--primary-color);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all .4s ease;
+}
+.social-icon-1:hover {
+    background-color: var(--primary-color);
+}
+
+#social-icon{
+    color: var(--primary-color);
+}
+#social-icon:hover {
+    color: var(--secondary-color);
+}
+
+.footer-content-1 ul {
+    padding-left: 0;
+}
+
+.footer-content-1 ul li {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content-1 ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #656565;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
