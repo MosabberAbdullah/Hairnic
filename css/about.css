@@ -2,7 +2,7 @@
 
 /* Body Section Start */
 
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-}
+} */
 
 .container {
     max-width: 1140px;
@@ -24,4 +24,15 @@ body {
 .about-hero-header {
     font-size: 3.5rem;
     font-weight: 700;
+}
+
+.hero-bg {
+    background: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem;
+}
+
+.hero-bg-color {
+    background-color: var(--primary-color);
 }
