@@ -408,6 +408,11 @@ body {
     color: #656565a9;
 }
 
+.product-content-inner:hover .primary-btn-emt {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
 /* End Of Blog Section */
 
 /* News Letter Section Start */
@@ -479,17 +484,23 @@ body {
 #social-icon{
     color: var(--primary-color);
 }
-#social-icon:hover {
+.social-icon-1:hover #social-icon {
     color: var(--secondary-color);
 }
 
 .footer-content-1 ul {
     padding-left: 0;
+    
+}
+.footer-content-1 ul li a:hover {
+    letter-spacing: 1px;
+    color: var(--primary-color);
 }
 
 .footer-content-1 ul li {
     list-style: none;
-    padding: 0;
+    padding: .5rem 0;
+    
 }
 
 .footer-content-1 ul li a {
@@ -499,6 +510,22 @@ body {
     font-weight: 400;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s ease;
 }
+.footer-content-1 ul li i {
+    font-size: 1rem;
+    color: #656565;
+}
+
+#site-name a{
+    text-decoration: underline #cdcbcb87;
+    text-underline-offset: 5px;
+    color: #656565;
+    transition: all 0.3s ease;
+}
+#site-name a:hover {
+    color: var(--primary-color);
+}
+
 
 
