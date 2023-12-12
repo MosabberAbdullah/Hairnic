@@ -302,13 +302,8 @@ body {
 
 .benefit-text h2 {
     font-size: 40px;
-    padding: 0 4rem;
-    margin: 0 6rem;
 }
-.benefit-text p {
-    padding: 0 4rem;
-    margin: 1rem 6rem;
-}
+
 
 .benefit-content-1 {
     height: 80px;
@@ -368,7 +363,7 @@ body {
 /* Testimonial Section Start */
 
 .testimonial-section {
-    padding: 11rem;
+    /* padding: 11rem; */
     text-align: center;
 }
 
