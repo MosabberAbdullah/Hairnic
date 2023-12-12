@@ -188,10 +188,11 @@ body {
     color: #fff;
 }
 
+
 /* Hero Section Srart */
 
 .hero-bg {
-    background: url(./images/bg.png);
+    background: url(../images/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 4rem;
@@ -204,6 +205,11 @@ body {
 .hero_header {
     font-size: 3.5rem;
     font-weight: 700;
+}
+
+#hero-second-header {
+    font-size: 3.5rem;
+    font-weight: 200;
 }
 
 .hero-p {
@@ -229,24 +235,22 @@ body {
 
 /* Features Section Start */
 
-.features-section {
+/* .features-section {
     padding: 3rem 0;
-}
+} */
 
 .features-1 {
-    width: 32%;
     background-color: var(--primary-color);
 } 
 .features-border {
-    margin: 1rem 1rem;
-    border: 3px solid rgba(255, 255, 255, .2);
-    
+    margin: .25rem;
+    border: 3px solid rgba(255, 255, 255, .2);    
 }
 
-.features-2 {
+/* .features-2 {
     height: 212px;
     width: 351px;
-}
+} */
 
 .features-icon {
     font-size: 3rem;
