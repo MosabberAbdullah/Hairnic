@@ -48,9 +48,11 @@
 
     <!-- Hero Section Start -->
     <section class="hero-bg hero-bg-color">
-        <section class="container d-flex align-items-center justify-content-center flex-column text-white py-5">
-            <h2 class="about-hero-header pt-5">Contact</h2>
-            <p>Home / Pages / Contact</p>
+        <section class="container ">
+            <div class="row align-items-center  text-white py-2 ">
+                <h2 class="about-hero-header text-center pt-5">Contact</h2>
+                <p class="text-center">Home / Pages / Contact</p>
+            </div>
         </section>
     </section>
 
@@ -58,39 +60,38 @@
 
     <!-- Features Section Start -->
 
-    <section class="container features-section">
-        <div class="d-flex gap-3">
-            <div class="features-1 col-4">
-                <div class="features-border d-flex align-items-center justify-content-center">
-                    <div
-                        class="features-content d-flex flex-column align-items-center justify-content-center features-2">
-                        <i class="fa-solid fa-location-dot features-icon"></i>
-                        <h5 class="primary-header features-header pt-3">Office Address</h5>
-                        <h5 class="text-white fw-lighter">123 Street, New York, USA</h5>
+    <section class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="features-1  text-center p-3">
+                        <div class="features-border  py-5 px-3">
+                            <i class="fa-solid fa-location-dot features-icon"></i>
+                            <h5 class="primary-header features-header pt-3">Office Address</h5>
+                            <h5 class="text-white fw-lighter">123 Street, New York, USA</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="features-1 col-4">
-                <div class="features-border d-flex align-items-center justify-content-center">
-                    <div
-                        class="features-content d-flex flex-column align-items-center justify-content-center features-2">
-                        <i class="fa-solid fa-phone features-icon"></i>
-                        <h5 class="primary-header features-header pt-3">Call Us</h5>
-                        <h5 class="text-white fw-lighter">+012 345 67890</h5>
+                <div class="col-lg-4">
+                    <div class="features-1  text-center p-3">
+                        <div class="features-border py-5 px-3">
+                            <i class="fa-solid fa-phone features-icon"></i>
+                            <h5 class="primary-header features-header pt-3">Call Us</h5>
+                            <h5 class="text-white fw-lighter">+012 345 67890</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="features-1 col-4">
-                <div class="features-border d-flex align-items-center justify-content-center">
-                    <div
-                        class="features-content d-flex flex-column align-items-center justify-content-center features-2">
-                        <i class="fa-solid fa-envelope features-icon"></i>
-                        <h5 class="primary-header features-header pt-3">Mail Us</h5>
-                        <h5 class="text-white fw-lighter">info@example.com</h5>
+                <div class="col-lg-4">
+                    <div class="features-1 text-center p-3">
+                        <div class="features-border py-5 px-3">
+                            <i class="fa-solid fa-envelope features-icon"></i>
+                            <h5 class="primary-header features-header pt-3">Mail Us</h5>
+                            <h5 class="text-white fw-lighter">info@example.com</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </section>
 
@@ -112,9 +113,9 @@
                 </p>
                 <form action="">
                     <div class="form-name gap-3 d-flex">
-                            <input type="text" name="name" id="form-name" placeholder="Your Name">
-                        
-                            <input type="text" name="name" id="form-name" placeholder="Your Email">                        
+                        <input type="text" name="name" id="form-name" placeholder="Your Name">
+
+                        <input type="text" name="name" id="form-name" placeholder="Your Email">
                     </div>
                     <div class="form-subject py-3 col-">
                         <input type="text" name="subject" id="subject" placeholder="Subject">
@@ -140,7 +141,7 @@
                     }
                 </script>
 
-                
+
             </div>
         </div>
     </section>
@@ -168,9 +169,10 @@
 
     <!-- Footer Section Start -->
 
-    <footer class="container pt-5">
-        <div class="footer-content d-flex gap-3 justify-content-between py-5">
-            <div class="footer-content-1 col-3">
+    <footer class="container-fluid ">
+        <div class="container pt-5"></div>
+        <div class="row g-5 py-5">
+            <div class="footer-content-1 col-md-6 col-lg-3">
                 <ul>
                     <li class="pt-0"><a id="footer-logo" href="index.html">Hairnic</a></li>
                 </ul>
@@ -179,7 +181,7 @@
                     nibh erat tempus risus, vitae porttitor purus nisl vitae purus.
                 </p>
             </div>
-            <div class="footer-content-1 col-3">
+            <div class="footer-content-1 col-md-6 col-lg-3">
                 <h5 class="pb-3">Get In Touch</h5>
                 <div class="street d-flex gap-4">
                     <i class="fa-solid fa-location-dot location"></i>
@@ -208,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-content-1 col-3">
+            <div class="footer-content-1 col-md-6 col-lg-3">
                 <h5>Our Products</h5>
                 <ul class="d-flex flex-column">
                     <li class="d-flex align-items-center gap-2">
@@ -233,7 +235,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-content-1 col-3">
+            <div class="footer-content-1 col-md-6 col-lg-3">
                 <h5>Popular Link</h5>
                 <ul class="d-flex flex-column">
                     <li class="d-flex align-items-center gap-2">
@@ -259,15 +261,15 @@
                 </ul>
             </div>
         </div>
-        <div class="footer-bottom d-flex justify-content-between align-items-center pt-2">
-            <div class="col-6">
-                <p class="para-font-gray">
+        <div class="footer-bottom row pt-4">
+            <div class="col-md-6 text-center text-md-start ">
+                <p class="para-font-gray mb-0 pt-3">
                     ©
                     <span id="site-name"><a href="#">Your Site Name,</a></span>
                     All Right Reserved. Re-designed By <span id="site-name"><a href="#">Abdullah</a></span>
                 </p>
             </div>
-            <div class="col-6 bottom-right text-end ">
+            <div class="col-md-6 text-center bottom-right text-md-end ">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">Cookies</a></li>

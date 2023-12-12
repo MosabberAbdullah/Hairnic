@@ -388,9 +388,6 @@ body {
     padding: 5px;
 }
 
-/* .testimonial-count {
-    display: flex;
-} */
 
 .test-count-1 {
     height: 30px;
@@ -554,6 +551,18 @@ body {
 
 .bottom-right ul li a:hover {
     color: var(--primary-color);
+}
+
+
+
+
+
+/* Media Query For Nav Menu */
+
+@media only screen and (max-width: 992px) {
+    .nav-item {
+        display: none;
+    }
 }
 
 
